@@ -19,7 +19,7 @@ namespace ExpensesManager
         public Form1()
         {
             InitializeComponent();
-            textBox1.Text = @"C:\Users\Ельнур\Desktop\ProgExam\invoice.txt"; // please chage for your path(link to txt)!!!
+            textBox1.Text = @"C:\Users\Ельнур\Desktop\semester 3 assignments\ProgExam\invoice.txt"; // please chage for your path(link to txt)!!!
             Text = "ExpensesManager";
         }
 
