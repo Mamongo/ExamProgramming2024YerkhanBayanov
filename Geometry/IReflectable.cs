@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    internal class IReflectable
+    public interface IReflectable
     {
+        void ReflectX();
+        void ReflectY();
     }
 }
