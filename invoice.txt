@@ -1,0 +1,7 @@
+Date|Price|Category
+2021-01-01|1000.00|Furniture
+2021-01-02|20.50|Beverages
+2021-01-02|500.00|Furniture
+2021-02-04|405.30|Food
+2021-02-04|400.00|Clothing
+2021-01-05|25.40|Food
