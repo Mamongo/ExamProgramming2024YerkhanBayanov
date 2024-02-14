@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utilities
 {
-    internal class StringUtilities
+    public static class StringUtilities
     {
     }
 }
