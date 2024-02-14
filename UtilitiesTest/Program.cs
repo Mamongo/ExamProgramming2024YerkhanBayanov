@@ -5,16 +5,25 @@ class Program
 {
     static void Main()
     {
+        string input1 = "Yerkhan Bayanov";
+        string input2 = "The lord of the rings";
 
-        string input = "The lord of the rings";
+        int longWordsCount1 = StringUtilities.LongWordsCount(input1);
+        Console.WriteLine("Long words count: " + longWordsCount1);
 
-        int longWordsCount = StringUtilities.LongWordsCount(input);
-        Console.WriteLine("Long words count: " + longWordsCount);
+        string spinalCase1 = StringUtilities.ToSpinalCase(input1);
+        Console.WriteLine("Spinal case: " + spinalCase1);
 
-        string spinalCase = StringUtilities.ToSpinalCase(input);
-        Console.WriteLine("Spinal case: " + spinalCase);
+        string pascalCase1 = input1.ToPascalCase();
+        Console.WriteLine("Pascal case: " + pascalCase1);
 
-        string pascalCase = input.ToPascalCase();
-        Console.WriteLine("Pascal case: " + pascalCase);
+        int longWordsCount2 = StringUtilities.LongWordsCount(input2);
+        Console.WriteLine("Long words count: " + longWordsCount2);
+
+        string spinalCase2 = StringUtilities.ToSpinalCase(input2);
+        Console.WriteLine("Spinal case: " + spinalCase2);
+
+        string pascalCase2 = input2.ToPascalCase();
+        Console.WriteLine("Pascal case: " + pascalCase2);
     }
 }
